@@ -32,3 +32,25 @@ rename_with(penguins, tolower)
 #Make sure it's only numbers, characters and underscoe in the names
 clean_names(penguins)
 
+library(tidyverse)
+penguins %>% 
+  arrange(-bill_length_mm)
+
+penguins2 <- penguins %>% 
+  arrange(-bill_length_mm)
+View(penguins2)
+
+penguins %>% 
+  group_by(island) %>% 
+  drop_na() %>% 
+  summarize(mean_bill_length_mm = mean(bill_length_mm))
+
+penguins %>% 
+  group_by(island) %>% 
+  drop_na() %>% 
+  summarise(max_bill_length_mm = max(bill_length_mm))
+
+penguins %>% 
+  group_by(species, island) %>% 
+  drop_na() %>% 
+  summarise(max_bill_length_mm = max(bill_length_mm), mean_bill_length_mm = mean(bill_length_mm))
