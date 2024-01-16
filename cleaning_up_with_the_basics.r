@@ -54,3 +54,5 @@ penguins %>%
   group_by(species, island) %>% 
   drop_na() %>% 
   summarise(max_bill_length_mm = max(bill_length_mm), mean_bill_length_mm = mean(bill_length_mm))
+
+  penguins %>% filter(species == "Adelie")
