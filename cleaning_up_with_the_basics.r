@@ -56,3 +56,6 @@ penguins %>%
   summarise(max_bill_length_mm = max(bill_length_mm), mean_bill_length_mm = mean(bill_length_mm))
 
   penguins %>% filter(species == "Adelie")
+
+  penguins %>% 
+  mutate(body_mass_kg = body_mass_g/1000)
