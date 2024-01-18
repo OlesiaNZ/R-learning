@@ -71,6 +71,7 @@ ggplot(data = diamonds) + geom_bar(mapping = aes(x = cut, fill = cut)) + facet_w
 
 
 ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)) + facet_grid(sex ~ species)
+ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)) + facet_grid(~ sex)
 
 
 
