@@ -5,3 +5,9 @@ library(palmerpenguins)
 print(penguins)
 
 ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)) + labs(title = "Palmer Penguins: Body Mass vs Flipper Length")
+
+ggplot(data = penguins) + 
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)) + 
+  labs(title = "Palmer Penguins: Body Mass vs Flipper Length", 
+       subtitle = "Sample of Three Penguin Species",
+       caption = "Data collected by Dr. Kristen Gorman")
