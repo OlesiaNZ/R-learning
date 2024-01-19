@@ -29,3 +29,5 @@ peng_plot <- ggplot(data = penguins) +
 
 peng_plot + annotate("text", x = 220, y = 3400, label = "The Gentoos are the largest", color = "grey",
                        fontface = "bold", size = 4.5, angle = 32)
+
+ggsave("Sample of Three Penguin Species.png")
