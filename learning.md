@@ -23,6 +23,15 @@ For more details on using *R Markdown* see <http://rmarkdown.rstudio.com> or [cl
 
 When you click **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks withing the document. 
 
+## Setting up my environment
+Notes: setting up R environment by loading the 'tidyverse' and 'palmerpenguins' packeges
+```{r loading packeges}
+install.packages("tidyverse")
+library(tidyverse)
+install.packages("palmerpenguins")
+library(palmerpenguins)
+```
+
 ## Image for good day
 
 ![Image this way](https://cdn.vox-cdn.com/thumbor/iaVMlcV5rj0OuPejZ7HyqYslLZk=/0x0:800x333/1400x788/filters:focal(334x72:462x200):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/55278741/gatsby.0.gif)
