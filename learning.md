@@ -11,11 +11,13 @@ output: html_document
 library(tidyverse)
 library(palmerpenguins)
 ```
-*italics works*
-
-**bold is useful**
 
 ## R Markdown
-Markdown is a simple formatting syntax for authoring HTML, RDF, and MS Word documents. For more details on using *R Markdown* see <http://rmarkdown.rstudio.com>
+Markdown is a simple formatting syntax for authoring:
+* HTML
+* RDF
+* MS Word documents.
+
+For more details on using *R Markdown* see <http://rmarkdown.rstudio.com>
 
 When you click **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks withing the document. 
