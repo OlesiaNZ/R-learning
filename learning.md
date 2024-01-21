@@ -17,3 +17,5 @@ library(palmerpenguins)
 
 ## R Markdown
 Markdown is a simple formatting syntax for authoring HTML, RDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>
+
+When you click **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks withing the document. 
