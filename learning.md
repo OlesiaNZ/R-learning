@@ -25,12 +25,27 @@ When you click **Knit** button a document will be generated that includes both c
 
 ## Setting up my environment
 Notes: setting up R environment by loading the 'tidyverse' and 'palmerpenguins' packeges
+
 ```{r loading packeges}
 install.packages("tidyverse")
 library(tidyverse)
 install.packages("palmerpenguins")
 library(palmerpenguins)
 ```
+See the data table from palmerpenguins:
+
+```{r ggplot for penguin data}
+library(ggplot2)
+library(palmerpenguins)
+data(penguins)
+View(penguins)
+```
+See the plot:
+```{r ggplot for penguin data visualization}
+ggplot(data = penguins) +
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
 
 ## Image for good day
 
