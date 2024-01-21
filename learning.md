@@ -14,3 +14,6 @@ library(palmerpenguins)
 *italics works*
 
 **bold is useful**
+
+## R Markdown
+Markdown is a simple formatting syntax for authoring HTML, RDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>
