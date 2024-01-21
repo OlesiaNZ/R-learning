@@ -5,12 +5,6 @@ date: "26/02/2021"
 output: html_document
 ---
 <!--- The code above in --- is YAML -->
-# Getting Started with R Markdown
-#### Code example
-```{r}
-library(tidyverse)
-library(palmerpenguins)
-```
 
 ## R Markdown
 
@@ -45,7 +39,6 @@ See the plot:
 ggplot(data = penguins) +
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 ```
-
 
 ## Image for good day
 
